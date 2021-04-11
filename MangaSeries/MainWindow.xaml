@@ -1,0 +1,14 @@
+﻿<Window x:Class="MangaSeries.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MangaSeries"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtMangaEpisodeURL" HorizontalAlignment="Left" Margin="49,153,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="269"/>
+        <Button x:Name="btnDownload" Content="Download" HorizontalAlignment="Left" Margin="419,153,0,0" VerticalAlignment="Top" Click="btnDownload_Click"/>
+
+    </Grid>
+</Window>
